@@ -37,6 +37,7 @@
 #### 错误码
 - `400` : 请求参数缺失或格式错误
 - `401` : 邮箱或密码错误
+- `403` : 账户已被锁定，请联系管理员
 - `429` : 请求过于频繁
 
 ### POST /auth/refresh
@@ -64,4 +65,5 @@
   ---
 
   > 本项目遵循[Googke Developer Documentation Style Guide](https://developers.google.com/style)
+
   <!-- 作者：技术文档团队，最后更新：2026-01-29 -->
